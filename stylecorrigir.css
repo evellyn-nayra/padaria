@@ -12,7 +12,8 @@ header{
     background-color: rgba(56, 49, 49);/*Cor de fundo do nosso cabeçalho header */
     align-items: center; /*Alinhar os itens do nosso header para o centro*/
     justify-content: space-evenly; /*Tradução: justificar conteudo: espaço uniformemente. Alinhar os itens igualmente dentro da pagina */
-    overflow: hidden; /* hidden = se o texto for maior que o espaço do meu header ele é cortado e não é exibido na tela */
+    /* overflow: hidden; hidden = se o texto for maior que o espaço do meu header ele é cortado e não é exibido na tela */
+    display: flex;
 } 
 
 header img{
@@ -25,7 +26,7 @@ header h1{
     font-size: 2.5rem;
 }
 
-#menu-header{ /*nav*/
+#menu-header{ 
     display: flex; /*coloca os itens lado a lado*/
     align-items: center; /*alinha os itens no centro*/
 }
@@ -59,3 +60,5 @@ header h1{
     background-color: transparent;
     border: none;
 }
+
+#
