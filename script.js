@@ -1,11 +1,9 @@
 window.revelar = ScrollReveal({reset:true});
 
-
 revelar.reveal('.efeito-img-topo', {
     duration: 2000,
     distance: '90px'
 })
-
 
 revelar.reveal('.clientes-efeito', {
     duration: 2000,
