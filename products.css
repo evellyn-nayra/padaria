@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1%;
+    background-color: rgb(56, 49, 49);
+    overflow: hidden;
+}
+
+header h1 {
+    color: aliceblue;
+    font-size: 2.5rem;
+}
+
+header img {
+    width: 200px;
+    height: 170px;
+}
+
+#menu-header {
+    display: flex;
+    align-items: center;
+}
+
+#list-menu {
+    display: flex;
+    margin-right: 1rem;
+}
+
+.item-menu-header {
+    margin-right: 25px;
+}
+
+.item-menu-header a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.item-menu-header a:hover {
+    color: yellow;
+    transition: 1s;
+}
+
+#featured-products {
+    background: linear-gradient(180deg, #d1803e 8.33%, rgba(223, 144, 98, 0) 100%);
+    padding: 30px;
+}
+
+.products {
+    margin-top: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-product {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.title-products {
+    margin-top: 10px;
+    font-family: 'Ubuntu', 'sans-serif';
+    text-align: center;
+    font-size: 22px;
+}
+
+#featured-products>a {
+    text-decoration: none;
+    font-family: 'Ubuntu', 'sans-serif';
+    font-size: 20px;
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+#featured-products>a:hover {
+    text-decoration: underline;
+    size: 22px;
+    transition: 1s;
+}
+
+#featured-products>h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 30px;
+}
+
+footer {   
+    padding: 6%;  
+    background-image: url(img/img-footer.jpg);  
+    background-position: bottom;  
+    background-repeat: no-repeat; 
+    
+}
+
+footer > ul {   
+    display: flex;  
+    justify-content: space-evenly;  
+}
+
+footer > h2 {  
+    color: black bold; 
+    font-size: 40px;  
+    font-weight: bold;  
+    text-align: center;  
+    margin-bottom: 1em;  
+}
+
+.item-menu-footer {  
+    display: flex;  
+    align-items: center; 
+    margin-top: 30px;  
+}
+
+.item-menu-footer > img { 
+    width: 34px;  
+    height: 34px; 
+}
+
+.item-menu-footer > p { 
+    color: black bold; 
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-left: 10px; 
+}
